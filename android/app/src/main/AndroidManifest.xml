@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
    <application
         android:label="zoom_clone"
+        tools:replace="android:label"  
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
