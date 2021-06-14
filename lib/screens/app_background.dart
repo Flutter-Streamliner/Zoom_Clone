@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class AppBackGround extends StatelessWidget {
   final Widget child;
 
-  AppBackGround({required this.child});
+  AppBackGround({required this.child,});
 
   @override
   Widget build(BuildContext context) {
