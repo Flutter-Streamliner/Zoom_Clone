@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
+import 'package:zoom_clone/screens/auth_screen.dart';
 import 'package:zoom_clone/utils/app_styles.dart';
 
 class IntroAuthScreen extends StatefulWidget {
@@ -43,7 +44,7 @@ class _IntroAuthScreenState extends State<IntroAuthScreen> {
         )
       ],
       onDone: (){
-
+        Navigator.of(context).push(MaterialPageRoute(builder: (ctx) => AuthScreen()));
       },
       onSkip: (){
 
